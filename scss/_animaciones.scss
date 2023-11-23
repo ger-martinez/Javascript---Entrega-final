@@ -1,0 +1,15 @@
+@keyframes animation-main{
+    0%{background-image: url(../img/HeroLanding.jpg)}
+    50%{background-image: url(../img/HeroLanding2.jpg)}
+    100%{background-image: url(../img/HeroLanding3.jpg)}
+}
+.header-animacion{
+    animation-name: animation-main;
+    animation-iteration-count: infinite;
+    height: 55vh;
+    animation-duration: 9s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-timing-function: ease;
+}

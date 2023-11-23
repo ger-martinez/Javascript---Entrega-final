@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+@keyframes animation-main {
+  0% {
+    background-image: url(../img/HeroLanding.jpg);
+  }
+  50% {
+    background-image: url(../img/HeroLanding2.jpg);
+  }
+  100% {
+    background-image: url(../img/HeroLanding3.jpg);
+  }
+}
+.header-animacion {
+  animation-name: animation-main;
+  animation-iteration-count: infinite;
+  height: 55vh;
+  animation-duration: 9s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-timing-function: ease;
+}
+
+.boxTop {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  font-size: 1em;
+  padding: 5px;
+}
+.boxTop p {
+  width: 94%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(25, 135, 84);
+  margin-bottom: 0;
+}
+.boxTop :hover {
+  transition: 0.3s ease-in-out;
+  color: rgb(240, 248, 255);
+}
+
+.topIcons {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.topIcons a svg {
+  margin-left: 0.5em;
+  fill: rgb(25, 135, 84);
+  width: 35px;
+  height: 40px;
+  padding: 2px;
+}
+.topIcons a svg :hover {
+  fill: rgb(240, 248, 255);
+}
+
+footer {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  color: rgb(25, 135, 84);
+}
+footer svg {
+  margin-right: 15px;
+  padding: 10px 0px;
+  width: 40px;
+  fill: rgb(25, 135, 84);
+}
+footer p {
+  margin: auto;
+}
+footer:hover {
+  transition: 0.3s ease-in-out;
+  color: rgb(240, 248, 255);
+}
+
+.bi-facebook:hover {
+  transition: 0.3s ease;
+  fill: #446cc2;
+}
+
+.bi-instagram:hover {
+  transition: 0.3s ease;
+  fill: #E1306C;
+}
+
+.contact_whatsapp {
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+}
+.contact_whatsapp img {
+  width: 50px;
+  height: 50px;
+}
+
+.ti {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.3em;
+}
+.ti .titles {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.ti .btn .btn-secondary {
+  margin: 0em;
+  width: 50%;
+}
+
+.showCart {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-carrito {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.4em;
+}
+
+.card-brand {
+  width: 15%;
+}
+
+.card-title {
+  width: 30%;
+}
+
+.card-price {
+  width: 10%;
+}
+
+.card {
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  width: 65%;
+}
+
+.cart-container {
+  width: 80%;
+}
+
+.navegacion {
+  background-color: rgb(240, 248, 255);
+}
+
+.bogey-logo {
+  width: 190px;
+}
+
+.linksnav li a {
+  font-size: 1.2em;
+  margin-right: 20px;
+}
+.linksnav li a:hover {
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.5s ease;
+  color: rgb(25, 135, 84);
+}
+
+.mainProducts h1 {
+  text-align: center;
+  font-size: 2em;
+  padding: 25px 0px;
+}
+
+.contact_us {
+  text-align: center;
+}
+
+.products_categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.products_categories article {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 5%;
+}
+.products_categories article h3 {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 6px;
+}
+.products_categories article h3:hover {
+  cursor: pointer;
+  color: rgb(25, 135, 84);
+  font-size: 2em;
+  transition: 0.5s ease;
+}
+.products_categories article a img {
+  width: 60%;
+  display: flex;
+  margin: auto;
+}
+.products_categories article a img:hover {
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: 0.5s ease;
+}
+
+.brands {
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.golf_brands {
+  padding-top: 10px;
+  margin: auto;
+}
+.golf_brands .logo-brand {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  height: 95%;
+}
+
+.brandcard {
+  padding-top: 10px;
+  border: none;
+  text-align: center;
+}
+
+.card {
+  width: 40vh;
+  height: auto;
+  margin-bottom: 1em;
+  border: none;
+}
+
+.brandsh2 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.brand-link {
+  list-style: none;
+  text-decoration: none !important;
+  color: rgb(0, 0, 0);
+}
+.brand-link:hover {
+  cursor: pointer;
+  color: rgb(25, 135, 84);
+  font-size: 1.2em;
+  transition: 0.5s ease;
+}
+
+.contact .contact_form h3 {
+  text-align: center;
+}
+
+.form-control {
+  border: solid 1px rgb(0, 0, 0);
+}
+
+.google_maps {
+  padding: 10px;
+}
+.google_maps iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (width < 768px) {
+  .mainProducts h1 {
+    font-size: 1.2em;
+  }
+  .products_categories {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .products_categories article h3 {
+    font-size: 1.2em;
+  }
+}
+.contact_whatsapp {
+  position: fixed;
+  right: 25px;
+  bottom: 10px;
+}
+.contact_whatsapp img {
+  width: 35px;
+  height: 35px;
+}/*# sourceMappingURL=main.css.map */

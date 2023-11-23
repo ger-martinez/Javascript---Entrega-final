@@ -1,0 +1,43 @@
+//Index - con Grid de CSS 
+.mainProducts{
+    h1{
+        text-align: center;
+        font-size: $text-xl;
+        padding: 25px 0px;
+    }
+}
+.contact_us{
+    text-align: center;
+}
+.products_categories {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    article{
+        width: 100%;
+        object-fit: cover;
+        padding: 5%;
+        h3{
+            text-align: center;
+            font-size: $text-lg;
+            padding: 6px;
+            &:hover{
+                cursor: pointer;
+                color: $main-color;
+                font-size: $text-xl;
+                transition: 0.5s ease;
+            } 
+        }
+        a{
+            img{
+                width: 60%;
+                display: flex;
+                margin: auto;
+                &:hover{
+                    cursor: pointer;
+                    filter: grayscale(100%);
+                    transition: 0.5s ease;
+                }
+            }
+        }
+    }
+}

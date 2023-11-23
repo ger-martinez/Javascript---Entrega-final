@@ -1,0 +1,25 @@
+//Responsive con media queries
+@media (width < 768px){
+    .mainProducts{
+        h1{
+            font-size: $text-lg;
+        }
+    }
+    .products_categories{
+        grid-template-columns: repeat(1,1fr);
+        article{
+            h3{
+                font-size: $text-lg;
+            }
+        }
+    }
+}
+.contact_whatsapp{
+    position: fixed;
+    right: 25px;
+    bottom: 10px;
+    img{
+        width: 35px;
+        height: 35px;
+    }
+}

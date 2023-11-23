@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1001,
+      "img" : "../img/stock/hierros_callaway.jpg",
+      "marca": "Callaway",
+      "modelo": "Hierros Apex 4-PW",
+      "precio" : 1500,
+      "descripcion": "Set hierros forjado para mayor distancia y precisión",
+      "stock": 20
+    },
+    {
+      "id": 1002,
+      "marca": "TaylorMade",
+      "img" : "../img/stock/driver_sim2.jpg",
+      "modelo": "Driver SIM 2",
+      "precio" : 500,
+      "descripcion": "Driver con tecnología Twist Face para rectificar tiros descentrados",
+      "stock": 15
+    },
+    {
+      "id": 1003,
+      "marca": "Titleist",
+      "img" : "../img/stock/pelota_prov1.jpg",
+      "precio" : 50,
+      "modelo": "Pro V1",
+      "descripcion": "Bola de golf de alto rendimiento para profesionales",
+      "stock": 30
+    },
+    {
+      "id": 1004,
+      "marca": "Ping",
+      "img" : "../img/stock/hibrido_g425.jpg",
+      "modelo": "Hibrido 4 - G425",
+      "precio" : 200,
+      "descripcion": "Híbrido diseñado para máxima versatilidad y distancia",
+      "stock": 18
+    },
+    {
+      "id": 1005,
+      "marca": "Cobra",
+      "img" : "../img/stock/madera3_cobra.jpg",
+      "modelo": "Madera 3 - King RADSPEED",
+      "precio" : 200,
+      "descripcion": "Madera de calles con tecnología radial para velocidad y control",
+      "stock": 25
+    },
+    {
+      "id": 1006,
+      "marca": "Mizuno",
+      "img" : "../img/stock/hierros_mizuno.jpg",
+      "modelo": "Hierros JPX921 Hot Metal 4-PW",
+      "precio" : 1200,
+      "descripcion": "Set hierros con tecnología de velocidad de la bola para mayor distancia",
+      "stock": 22
+    },
+    {
+      "id": 1007,
+      "marca": "Odyssey",
+      "img" : "../img/stock/putter_odyssey.jpg",
+      "modelo": "Stroke Lab Triple Track",
+      "precio" : 300,
+      "descripcion": "Putter con tecnología de trazado triple para alineación precisa",
+      "stock": 12
+    },
+    {
+      "id": 1008,
+      "marca": "Wilson",
+      "img" : "../img/stock/hierros_wilson.jpg",
+      "modelo": "Hierros Staff Model CB 5-AW",
+      "precio" : 800,
+      "descripcion": "Set de hierros forjados para jugadores de nivel avanzado",
+      "stock": 17
+    },
+    {
+      "id": 1009,
+      "marca": "Srixon",
+      "img" : "../img/stock/hierros_srixon.jpg",
+      "modelo": "Hierros ZX5 4-PW",
+      "precio" : 1500,
+      "descripcion": "Hierro diseñado para combinación de distancia y control",
+      "stock": 19
+    },
+    {
+      "id": 1010,
+      "marca": "Adams",
+      "img" : "../img/stock/hibrido_adams.jpg",
+      "modelo": "Hibrido 3 - Blue",
+      "precio" : 100,
+      "descripcion": "Híbrido fácil de golpear para jugadores principiantes",
+      "stock": 28
+    },
+    {
+      "id": 1011,
+      "marca": "Nike",
+      "img" : "../img/stock/driver_nike.jpg",
+      "modelo": "Driver Vapor Fly",
+      "precio" : 500,
+      "descripcion": "Driver con tecnología FlyBeam para mayor estabilidad",
+      "stock": 14
+    },
+    {
+      "id": 1012,
+      "marca": "PXG",
+      "img" : "../img/stock/driver_pxg.jpg",
+      "modelo": "Driving Iron - 0311 GEN3",
+      "precio" : 250,
+      "descripcion": "Hierro de alto rendimiento con tecnología de inyección de velocidad",
+      "stock": 23
+    }
+  ]

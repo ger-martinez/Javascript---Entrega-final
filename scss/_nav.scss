@@ -1,0 +1,21 @@
+//Navegacion
+.navegacion{
+    background-color: $secondary-color;
+}
+.bogey-logo{
+    width: 190px
+}
+.linksnav {
+    li{
+        a{
+        font-size: $text-lg;
+        margin-right: 20px;
+        &:hover{
+            cursor: pointer;
+            font-weight: $text-bold;
+            transition: 0.5s ease;
+            color: $main-color;
+            }
+        }
+    }
+}

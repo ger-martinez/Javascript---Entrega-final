@@ -1,0 +1,16 @@
+//PAGINA CONTACTO//
+.contact .contact_form{
+    h3{
+    text-align: center;
+    }
+}
+.form-control{
+    border: solid 1px $key-color;
+}
+.google_maps{
+    padding: 10px;
+    iframe{
+        width: 100%;
+        height: 100%;
+    }        
+}

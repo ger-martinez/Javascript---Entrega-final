@@ -1,0 +1,10 @@
+*.log
+*.map
+*.vscode
+*.ai
+node_modules/
+fuentes/
+passwords.txt
+envio.php
+img/no_uso/
+Varios/

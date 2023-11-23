@@ -1,0 +1,119 @@
+//Box-top con informacion de interes + btn perfil/carrito
+.boxTop{
+    display: flex;
+    justify-content: space-between;
+    background-color:$key-color;
+    font-size: $text-md;
+    padding: 5px;
+    p {
+        width: 94%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        color: $main-color;
+        margin-bottom: 0;
+    }
+    & :hover {
+        transition: 0.3s ease-in-out;
+            color: $secondary-color;
+    }
+}
+.topIcons{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    a{
+        svg{
+            margin-left: 0.5em;
+            fill: $main-color;
+            width: 35px;
+            height: 40px;
+            padding: 2px;
+            & :hover {
+                fill: $secondary-color;
+            }
+        }
+    }
+}
+//Footer
+footer{
+    display: flex;
+    background-color: $key-color;
+    color: $main-color;
+    svg{
+        margin-right: 15px;
+        padding: 10px 0px;
+        width: 40px;
+        fill: $main-color;
+    }
+    p{
+        margin: auto;
+    }
+    &:hover{
+        transition: 0.3s ease-in-out;
+            color: $secondary-color;
+    }
+}
+.bi-facebook:hover {
+    transition: 0.3s ease;
+    fill: $facebook-color;
+}
+.bi-instagram:hover {
+    transition: 0.3s ease;
+    fill: $instagram-color;
+}
+//Boton whatsapp
+.contact_whatsapp{
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+.ti{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.3em;
+    .titles{
+        text-align: center;
+        font-weight: $text-bold;
+        font-size: $text-lg;
+    }
+    .btn .btn-secondary{
+        margin: 0em;
+        width: 50%;
+    }
+}
+.showCart {
+    display: flex;
+    flex-direction: column;
+}
+.card-carrito {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.4em; 
+}
+.card-brand{
+    width: 15%;
+}
+.card-title{
+    width: 30%;
+}
+.card-price{
+    width: 10%;
+}
+.card{
+    justify-content: center; 
+    align-items: center;
+        img{        
+        width: 65%;
+            }
+    }
+.cart-container{
+    width: 80%;
+}
+

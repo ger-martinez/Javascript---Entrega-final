@@ -1,0 +1,46 @@
+//Paginas con marcas
+.brands{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.golf_brands{
+    padding-top: 10px;
+    margin: auto;
+
+    .logo-brand {
+        object-fit: scale-down;
+        height: 95%;
+    }         
+}
+.brandcard{
+    padding-top: 10px;
+    border: none;
+    text-align: center;
+    }
+.card{
+    width: 40vh;
+    height: auto;
+    margin-bottom: 1em;
+    border: none;
+}
+.brandsh2{
+    font-size: $text-xl;     
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.brand-link{
+    list-style: none;
+    text-decoration: none !important;
+    color: $key-color;
+    &:hover{
+        cursor: pointer;
+        color: $main-color;
+        font-size: $text-lg;
+        transition: 0.5s ease;   
+    }
+}
+      
+    
